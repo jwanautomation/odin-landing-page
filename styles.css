@@ -43,7 +43,7 @@ a {
     background-color: #222222;
     display: flex;
     justify-content: space-evenly;
-    padding: 2rem;
+    padding: 100px;
 }
 
 .left-showcase-container {
@@ -86,8 +86,9 @@ h1 {
 /* INFO */
 
 #info {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    /* margin-top: 50px;
+    margin-bottom: 50px; */
+    padding: 50px;
 }
 
 .item {
@@ -136,7 +137,6 @@ img {
 #quote {
     background-color: #E5E7EB;
     margin-top: 50px;
-    margin-bottom: 50px;
     padding: 100px;
     display: flex;
     justify-content: center;
@@ -161,7 +161,7 @@ img {
 
 /* CTA */
 #cta {
-    padding: 0 80px;
+    padding: 80px;
     color: white;
 }
 
@@ -195,3 +195,18 @@ img {
     align-items: center;
 }
 
+/* FOOTER */
+
+#footer {
+    padding: 60px;
+    position: fixed;
+    height: 72px;
+    color: white;
+    background-color: #222222;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+}
